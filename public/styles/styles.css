@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 12px; /* Aumentamos el padding para hacer que el contenido tenga más espacio */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para los botones */
+.btn-modificar {
+    margin-top: 20px;
+    padding: 10px 20px; /* Aumentamos el padding para hacer que los botones sean más grandes */
+    font-size: 16px; /* Aumentamos el tamaño de la fuente de los botones */
+}
+
+/* Estilos para hacer el contenido más centrado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Estilos para hacer que el contenido sea más responsive */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%; /* Reducimos el ancho del contenedor para dispositivos móviles */
+    }
+
+    table {
+        font-size: 14px; /* Reducimos el tamaño de la fuente de la tabla para dispositivos móviles */
+    }
+
+    .btn-modificar {
+        font-size: 14px; /* Reducimos el tamaño de la fuente de los botones para dispositivos móviles */
+    }
+}
